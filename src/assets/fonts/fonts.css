@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./BebasNeue/BebasNeue-Regular.eot");
+  src: url("./BebasNeue/BebasNeue-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./BebasNeue/BebasNeue-Regular.woff2") format("woff2"),
+    url("./BebasNeue/BebasNeue-Regular.woff") format("woff"),
+    url("./BebasNeue/BebasNeue-Regular.ttf") format("truetype"),
+    url("./BebasNeue/BebasNeue-Regular.otf") format("opentype");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400;500;800&display=swap");
