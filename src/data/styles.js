@@ -1,6 +1,9 @@
-export default {
+var styles = {
   media: {
-    mobile: "(max-width: 400px)",
+    tiny: "(max-width: 300px)",
+    tablet: "(min-width: 400px)",
+    small: "(min-width: 800px)",
+    large: "(min-width: 1200px)",
   },
   font: {
     main: "Bebas Neue, sans-serif",
@@ -8,9 +11,11 @@ export default {
   },
   color: {
     main: "#e76baf",
-    light: "#f8b9c8",
-    pale: "#f5f5f5",
+    light: "#ffd0e8",
+    pale: "#fff",
     mid: "#818e9c",
     dark: "#000",
   },
 };
+
+export default styles;

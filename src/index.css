@@ -8,6 +8,10 @@
   -moz-box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 html,
 body,
 #root {
@@ -15,4 +19,4 @@ body,
   width: 100%;
 }
 
-@import "./assets/fonts/fonts.css"
+@import "./assets/fonts/fonts.css";

@@ -1,12 +1,19 @@
 import React from "react";
+import styled from "styled-components";
 
 import Header from "./components/Header";
+import Gallery from "./components/Gallery";
+
+const StyledApp = styled.div`
+  min-height: 100vh;
+`;
 
 function App() {
   return (
-    <div style={{minHeight: "100vh"}}>
+    <StyledApp>
       <Header />
-    </div>
+      <Gallery />
+    </StyledApp>
   );
 }
 
