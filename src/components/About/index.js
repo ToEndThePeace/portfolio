@@ -6,7 +6,7 @@ const About = (props) => {
     return (
         <StyledAbout>
             <div className="banner">
-                <span />
+                <img src={require("../../assets/img/selfie.jpg")} />
                 <div>
                     <h2>Brandon Ramirez</h2>
                     <p>
@@ -18,12 +18,14 @@ const About = (props) => {
                 </div>
             </div>
             <div className="banner vert alt">
-                <h3>Relevant Skills</h3>
+                <h3>Skills</h3>
                 <ul>
                     <li>React.js</li>
-                    <li>Redux-Thunk</li>
-                    <li>Python OOP</li>
-                    <li>Data Structures</li>
+                    <li>React.js</li>
+                    <li>React.js</li>
+                    <li>React.js</li>
+                    <li>React.js</li>
+                    <li>React.js</li>
                 </ul>
             </div>
             <div className="banner vert">

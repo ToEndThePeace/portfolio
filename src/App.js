@@ -9,6 +9,8 @@ import styles from "./data/styles";
 
 const StyledApp = styled.div`
     min-height: 100vh;
+    background: url(${require("./assets/img/cubes.svg")}) no-repeat center center fixed;
+    background-size: cover;
     background-color: ${styles.color.light};
 `;
 
