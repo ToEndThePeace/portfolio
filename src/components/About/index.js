@@ -5,8 +5,8 @@ import StyledAbout from "./StyledAbout";
 const About = (props) => {
     return (
         <StyledAbout>
-            <div className="banner">
-                <img src={require("../../assets/img/selfie.jpg")} />
+            <div className="banner splash">
+                <img src={require("../../assets/img/selfie.jpg")} alt="Selfie of Brandon" />
                 <div>
                     <h2>Brandon Ramirez</h2>
                     <p>
@@ -17,7 +17,7 @@ const About = (props) => {
                     </p>
                 </div>
             </div>
-            <div className="banner vert alt">
+            <div className="banner vert">
                 <h3>Skills</h3>
                 <ul>
                     <li>React.js</li>
@@ -28,7 +28,7 @@ const About = (props) => {
                     <li>React.js</li>
                 </ul>
             </div>
-            <div className="banner vert">
+            <div className="banner vert alt">
                 <h3>Some Content</h3>
                 <p>How does this look?</p>
             </div>

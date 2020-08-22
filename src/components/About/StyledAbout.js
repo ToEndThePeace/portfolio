@@ -8,6 +8,10 @@ const StyledAbout = styled.div`
         padding: 5vh 10%;
         display: flex;
         flex-flow: column nowrap;
+        &.splash {
+            flex-flow: row nowrap;
+            align-items: center;
+        }
         @media ${media.small} {
             justify-content: center;
         }
@@ -41,14 +45,15 @@ const StyledAbout = styled.div`
             }
             p {
                 font-family: ${font.accent};
+                font-size: 1.1rem;
             }
+        }
+        h3 {
+            text-align: center;
         }
         &.alt {
             background-color: ${color.light};
             z-index: 2;
-            h3 {
-                text-align: center;
-            }
         }
         &:first-of-type {
             background: url(${require("../../assets/img/cubes.svg")}) no-repeat
@@ -63,16 +68,20 @@ const StyledAbout = styled.div`
         }
         &.vert {
             flex-flow: column nowrap;
-            h3 {
-                font-size: 4rem;
-                font-family: ${font.main};
+            p {
+                font-size: 1.4rem;
+                font-family: ${font.accent};
             }
             ul {
                 list-style-position: inside;
                 li {
-                    font-size: 1.5rem;
+                    font-size: 1.2rem;
                     font-family: ${font.accent};
                 }
+            }
+            h3 {
+                font-size: 4rem;
+                font-family: ${font.main};
             }
         }
     }

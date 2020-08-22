@@ -12,7 +12,7 @@ const Card = (props) => {
 
     return (
         <StyledCard>
-            <img src={require("../../assets/img/webimgtemp.png")} />
+            <img src={require("../../assets/img/webimgtemp.png")} alt="" />
             <div>
                 <div onClick={toggleDesc}>
                     <h2>Card</h2>

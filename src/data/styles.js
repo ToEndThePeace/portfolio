@@ -17,7 +17,7 @@ var styles = {
         mid: "#818e9c",
         dark: "#000",
         off: "#7c7c7c"
-    },
+    }
 };
 
 export default styles;
